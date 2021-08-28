@@ -10,7 +10,7 @@ international_morse_code = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '..
 
 user_message = input('Please enter the message you would like translated to morse code\n').lower()
 
-
+# for loop to swap out corresponding letter with morse code equivalent
 def character_index():
     characters = []
     for character in user_message:
